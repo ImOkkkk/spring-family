@@ -3,3 +3,6 @@ spring:
     host: 127.0.0.1
     port: 6379
     password: 547717253
+  data:
+    mongodb:
+      uri: mongodb://springbucks:springbucks@127.0.0.1:27017/springbucks

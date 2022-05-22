@@ -6,6 +6,7 @@
   <packaging>pom</packaging>
   <modules>
     <module>simple-reactor-demo</module>
+    <module>aop-demo</module>
   </modules>
 
   <parent>

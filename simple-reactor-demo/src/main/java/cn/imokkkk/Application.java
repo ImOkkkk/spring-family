@@ -87,7 +87,12 @@ public class Application implements ApplicationRunner {
     return new ReactiveStringRedisTemplate(redisConnectionFactory);
   }
 
-/*  @Override
+ /* *//**
+   * reactive的方式访问Redis
+   * @param args
+   * @throws Exception
+   *//*
+  @Override
   public void run(ApplicationArguments args) throws Exception {
     ReactiveHashOperations<String, String, String> hashOperations = redisTemplate.opsForHash();
     CountDownLatch latch = new CountDownLatch(1);
